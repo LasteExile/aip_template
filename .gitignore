@@ -1,0 +1,34 @@
+# Created by https://www.toptal.com/developers/gitignore/api/cmake,executable
+# Edit at https://www.toptal.com/developers/gitignore?templates=cmake,executable
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+
+### CMake Patch ###
+# External projects
+*-prefix/
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+# End of https://www.toptal.com/developers/gitignore/api/cmake,executable
