@@ -1,13 +1,16 @@
+#include <iostream>
+
 #include "tasks.h"
 
-#include <stdio.h>
+
+using namespace std;
 
 
 int main() {
     int choice;
     while (1) {
-        printf("Enter task: ");
-        scanf("%d", &choice);
+        cout << "Enter task: ";
+        cin >> choice;
         switch (choice) {
             case 1: first(); break;
             case 2: second(); break;
@@ -15,7 +18,7 @@ int main() {
             case 4: fourth(); break;
             case 5: fifth(); break;
             default: {
-                printf("Exiting");
+                cout << "Exiting\n";
                 return 0;
             }
         }
