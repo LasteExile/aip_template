@@ -1,6 +1,8 @@
 # aip_template
 
 ## How to Run
-~ `cmake tmp/`
+~ `cd tmp`
 
-~ `make tmp/`
+~ `cmake ..`
+
+~ `make`
